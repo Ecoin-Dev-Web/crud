@@ -33,6 +33,7 @@ $(document).on("click", "#add", function() {
     $raw.find("select#produit").val("");
     $raw.find("input#prix").val("");
     $raw.find("input#cantity").val("");
+    $raw.find("h3").text("");
     $raw.appendTo(".h5");
 });
 
